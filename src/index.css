@@ -1,0 +1,106 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  background-color: rgb(79, 90, 103);
+  color: #282c34;
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra negra con 30% de opacidad */
+  height: 50px;
+  padding: 20px;
+  display: flex; /* Utilizamos flexbox para alinear elementos en una fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: end;
+}
+#logo {
+  width: 75px; /* Ajusta el tamaño según tus necesidades */
+  height: 75px; /* Esto mantiene la proporción original */
+  padding-right: 100vh;
+}
+/*----------------------------------------------------------------------------------*/
+#sobreNosotros-button {
+  background-color: rgb(79, 90, 103);
+  font-size: 2em; /* Cambia el tamaño de fuente según tus preferencias */
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 1vh;
+  color: #cff6f6;
+}
+#Testimonios-button {
+  background-color: rgb(79, 90, 103);
+  font-size: 2em; /* Cambia el tamaño de fuente según tus preferencias */
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 2vh;
+  color: #cff6f6;
+}
+#sobreNosotros {
+  background-color: rgb(79, 90, 103);
+  font-size: 2em; /* Cambia el tamaño de fuente según tus preferencias */
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-weight: bold;
+  padding: 20px;
+  color: #cff6f6;
+  display: flex; /* Utilizamos flexbox para alinear elementos en una fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: space-between;
+  flex-direction: row;
+  height: 75vh;
+}
+#sobreNosotros p {
+  font-size: 18px; /* Tamaño de fuente adecuado */
+  line-height: 1.5; /* Espaciado entre líneas para una buena legibilidad */
+  text-align: justify; /* Justifica el texto para un aspecto limpio */
+  color: rgb(207, 246, 246); /* Cambia el color del texto a un tono oscuro */
+  padding-right: 10vh;
+}
+
+#imagen {
+  width: 75vh; /* Ajusta el tamaño según tus necesidades */
+  height: 75vh; /* Esto mantiene la proporción original */
+  margin: 0 0 0 0;
+  padding: 0 10vh 0 0;
+}
+#sobreNosotros-texto{
+  display: flex; /* Utilizamos flexbox para alinear elementos en una fila */
+  align-items: normal; /* Centra verticalmente los elementos */
+  justify-content: space-between;
+  flex-direction: column;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*----------------------------------------------------------------------------------*/
+/* Estilos para el footer */
+footer {
+  background-color: #282c34; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  padding: 20px; /* Ajusta el espacio interior según tus necesidades */
+  text-align: center; /* Centra el contenido del footer */
+}
+
+/* Estilos para los enlaces del footer */
+.footer-links a {
+  color: #fff; /* Cambia el color de los enlaces según tus preferencias */
+  text-decoration: none; /* Elimina la subrayado de los enlaces */
+  margin: 0 10px; /* Agrega espacio entre los enlaces */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Subraya los enlaces al pasar el cursor sobre ellos */
+}
